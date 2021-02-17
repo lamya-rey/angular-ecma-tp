@@ -30,7 +30,7 @@ async function getFoxImage() {
   }
 }
 
-//call PublicHolidays API
+//call PublicHolidays API 
 async function getDayOff(countryCode) {
   try {
     const response = await axios({
